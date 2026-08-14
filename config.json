@@ -1,0 +1,17 @@
+{
+  "listen": ":1921",
+  "tokenFile": "token.json",
+  "channelFile": "channel.json",
+  "probe": {
+    "enabled": true,
+    "intervalSeconds": 300,
+    "timeoutSeconds": 120,
+    "model": "gpt-5.5",
+    "prompt": "你好，你是什么大模型？",
+    "userAgent": "codex-tui/0.125.0 (Windows 10.0; x86_64) xterm-256color (codex-tui; 0.125.0)",
+    "openaiBeta": "responses=experimental",
+    "originator": "codex_cli_rs",
+    "version": "0.125.0",
+    "requireStreaming": true
+  }
+}
